@@ -61,19 +61,23 @@ Search the HTML for **`EDIT ME`** — 5 spots remain:
    fairly small — swap in **higher-resolution originals** when available,
    especially for the large hero (which still uses `tommy-range.png`).
 
-### Image assets in `assets/img/`
-- `tommy-range.png` — the "What is their range" thumbnail (home hero)
-- `tommy-table.jpg` — moody WPT table shot (intro / coaching / WPT pages)
-- `tommy-cruise.jpg` — cruise lifestyle (story intro, Travel series)
-- `community-toronto.jpg` — Toronto meet-up (Community sections)
-- `bankroll-challenge.jpg` — 30-Day Bankroll Challenge graphic (Challenges series)
-- `tommy-range-2.jpg` — hand-analysis shot (content featured)
-- `tommy-portrait-1..4.jpg` — clean table portraits (cards / teasers)
+### Image assets in `assets/img/` (high-res brand photos)
+- `hero-poker.jpg` — moody premium-table shot (home hero, coaching, WPT, content)
+- `toronto-coffee.jpg` — Toronto skyline / coffee (home "Who is Tommy")
+- `studying-range.jpg` — studying a range chart at the table (coaching, content)
+- `community-meetup.jpg` — "Poker Community Meetup" crowd (Community sections)
+- `cruise-chips.jpg` — cruise + chips (story intro, Travel series)
+- `bankroll-30days.jpg` — 30-Day Bankroll Challenge graphic (Challenges series)
+- `rtp-diagram.jpg` — Repeatable Thought Process diagram (coaching framework)
+- `handshake.jpg` — blazer / handshake, Toronto lounge (contact)
+- `short-river.jpg` — vertical Short thumbnail (content Shorts section)
+- `tommy-range.png` — original "What is their range" thumbnail (content featured)
 - `wpt-banner-250x400.jpg` — official WPT Global creative (WPT page)
 
-The AI-garbled-text tiles from the mood board (e.g. "HAND ANJALYSIS", the
-caricatures) were intentionally **not** used — swap in clean finals if you want
-those concepts on the site.
+Some supplied images were intentionally **not** used because their likeness or
+text was too off for a live site: the AI "Texas Tommy Poker Training" course box,
+the HUD-face illustration, and the cartoon bankroll illustration (all had garbled
+text). Swap in clean finals if you want those concepts on the site.
 
 ### Colors / branding
 All design tokens live at the top of `assets/css/styles.css` under `:root`.
