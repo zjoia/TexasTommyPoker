@@ -1,0 +1,17 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Poker chip">
+  <circle cx="60" cy="60" r="56" fill="#e11d2a"/>
+  <circle cx="60" cy="60" r="56" fill="none" stroke="#a3121c" stroke-width="3"/>
+  <g fill="#f5f4f2">
+    <rect x="55" y="2" width="10" height="16" rx="2"/>
+    <rect x="55" y="102" width="10" height="16" rx="2"/>
+    <rect x="2" y="55" width="16" height="10" rx="2"/>
+    <rect x="102" y="55" width="16" height="10" rx="2"/>
+    <rect x="14" y="14" width="10" height="16" rx="2" transform="rotate(-45 19 22)"/>
+    <rect x="96" y="14" width="10" height="16" rx="2" transform="rotate(45 101 22)"/>
+    <rect x="14" y="90" width="10" height="16" rx="2" transform="rotate(45 19 98)"/>
+    <rect x="96" y="90" width="10" height="16" rx="2" transform="rotate(-45 101 98)"/>
+  </g>
+  <circle cx="60" cy="60" r="38" fill="none" stroke="#f5f4f2" stroke-width="2" stroke-dasharray="6 4"/>
+  <circle cx="60" cy="60" r="30" fill="#101014"/>
+  <path d="M60 44c-4 5-10 8-10 13a5 5 0 0 0 8 4c-1 2.5-1.5 4-3.5 5.5h11c-2-1.5-2.5-3-3.5-5.5a5 5 0 0 0 8-4c0-5-6-8-10-13z" fill="#d4af37"/>
+</svg>
