@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Texas Tommy Poker</title>
+  <meta name="description" content="Get in touch with Texas Tommy — coaching, business, sponsorships, media, and collabs. No transactions, just a message." />
+  <meta name="theme-color" content="#0a0a0c" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <meta property="og:title" content="Contact — Texas Tommy Poker" />
+  <meta property="og:description" content="Reach Texas Tommy for coaching, business, and media." />
+  <meta property="og:image" content="assets/img/tommy-range.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script>document.documentElement.className+=" js";</script>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <!-- ===================== NAV ===================== -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a class="brand" href="index.html" aria-label="Texas Tommy Poker home">
+        <img class="brand__mark" src="assets/img/logo.svg" alt="" />
+        <span class="brand__name">Texas <span>Tommy</span></span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav__links">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link" href="story.html">The Story</a></li>
+          <li><a class="nav__link" href="coaching.html">Coaching</a></li>
+          <li><a class="nav__link" href="wpt-global.html">WPT Global</a></li>
+          <li><a class="nav__link" href="contact.html" aria-current="page">Contact</a></li>
+          <li class="nav__cta"><a class="btn btn--gold" href="wpt-global.html">Play on WPT Global</a></li>
+        </ul>
+      </nav>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== PAGE HEAD ===================== -->
+    <section class="page-head">
+      <div class="container">
+        <span class="eyebrow reveal">Say hello</span>
+        <h1 class="reveal">Get in touch</h1>
+        <p class="reveal">
+          Coaching, business, sponsorships, media, or just want to talk poker?
+          Drop me a message. No transactions here — just a real conversation.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT GRID ===================== -->
+    <section class="section">
+      <div class="container split">
+        <!-- Info column -->
+        <div class="split__body reveal">
+          <span class="eyebrow">Ways to reach me</span>
+          <h2 class="section-title">Let's talk</h2>
+          <p class="section-lead">
+            I read everything that comes through. For coaching, the fastest route
+            is the <a href="coaching.html" class="text-crimson">coaching application</a> —
+            it gives me what I need to help you right away.
+          </p>
+
+          <div class="grid" style="gap: 16px; margin-top: 28px;">
+            <article class="card" style="padding: 22px;">
+              <h3 style="font-size: 1.1rem; margin-bottom: 6px;">🎓 Coaching</h3>
+              <p><a href="coaching.html" class="text-gold">Apply for coaching →</a></p>
+            </article>
+            <article class="card" style="padding: 22px;">
+              <h3 style="font-size: 1.1rem; margin-bottom: 6px;">🤝 Business &amp; sponsorships</h3>
+              <!-- EDIT ME: replace with Tommy's real business email -->
+              <p><a href="mailto:hello@texastommypoker.com" class="text-gold">hello@texastommypoker.com</a></p>
+            </article>
+            <article class="card" style="padding: 22px;">
+              <h3 style="font-size: 1.1rem; margin-bottom: 6px;">📺 Follow the grind</h3>
+              <p>
+                <a href="https://youtube.com/@texas_tommy" target="_blank" rel="noopener" class="text-gold">YouTube</a>
+                &nbsp;·&nbsp;
+                <a href="https://www.instagram.com/texas_tommyy" target="_blank" rel="noopener" class="text-gold">Instagram</a>
+              </p>
+            </article>
+          </div>
+        </div>
+
+        <!-- Form column -->
+        <div class="split__media reveal" style="aspect-ratio:auto; background:none; border:none; box-shadow:none; display:block;">
+          <!-- =====================================================================
+               FORM SETUP: works in demo mode by default (shows success message).
+               Set action to your Formspree endpoint or use Netlify Forms to
+               receive real submissions. See README.md → "Wiring up the forms".
+               ===================================================================== -->
+          <form class="form" data-form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+            <input type="hidden" name="_subject" value="New message — Texas Tommy Poker" />
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+            <div class="field">
+              <label for="cname">Name <span class="req">*</span></label>
+              <input class="input" id="cname" name="name" type="text" placeholder="Your name" required />
+              <span class="field__error">This field is required.</span>
+            </div>
+            <div class="field">
+              <label for="cemail">Email <span class="req">*</span></label>
+              <input class="input" id="cemail" name="email" type="email" placeholder="you@email.com" required />
+              <span class="field__error">Please enter a valid email address.</span>
+            </div>
+            <div class="field">
+              <label for="topic">What's this about?</label>
+              <select class="select" id="topic" name="topic">
+                <option value="">Select…</option>
+                <option>Coaching</option>
+                <option>Business / sponsorship</option>
+                <option>Media / podcast / collab</option>
+                <option>Just saying hi</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">Message <span class="req">*</span></label>
+              <textarea class="textarea" id="message" name="message" placeholder="What's on your mind?" required></textarea>
+              <span class="field__error">This field is required.</span>
+            </div>
+            <button class="btn btn--lg btn--block" type="submit">Send Message</button>
+            <div class="form__status" role="status" aria-live="polite"></div>
+            <p class="form__note">No payments are taken on this site. Your details are never sold or shared.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WPT NUDGE ===================== -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta-band reveal">
+          <h2>While you're here…</h2>
+          <p>Sign up on WPT Global with code <b class="text-gold">TOMMY</b> and play where I play.</p>
+          <div class="cta-band__actions">
+            <a class="btn btn--gold btn--lg" href="wpt-global.html">Join WPT Global</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="brand" href="index.html">
+            <img class="brand__mark" src="assets/img/logo.svg" alt="" />
+            <span class="brand__name">Texas <span>Tommy</span></span>
+          </a>
+          <p>Professional poker player, content creator, coach, and WPT Global sponsored pro. Read the player. Own the felt.</p>
+          <div class="socials">
+            <a href="https://youtube.com/@texas_tommy" target="_blank" rel="noopener" aria-label="YouTube">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.6-.5-5.3a2.8 2.8 0 0 0-2-2C18.8 4 12 4 12 4s-6.8 0-8.5.7a2.8 2.8 0 0 0-2 2C1 8.4 1 12 1 12s0 3.6.5 5.3a2.8 2.8 0 0 0 2 2C5.2 20 12 20 12 20s6.8 0 8.5-.7a2.8 2.8 0 0 0 2-2C23 15.6 23 12 23 12zM10 15.5v-7l6 3.5-6 3.5z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/texas_tommyy" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="wpt-global.html" aria-label="WPT Global">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 7h7l-5.5 4.5L18 22l-6-4-6 4 1.5-8.5L2 9h7z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="story.html">The Story</a></li>
+            <li><a href="coaching.html">Coaching</a></li>
+            <li><a href="wpt-global.html">WPT Global</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <ul>
+            <li><a href="https://youtube.com/@texas_tommy" target="_blank" rel="noopener">YouTube</a></li>
+            <li><a href="https://www.instagram.com/texas_tommyy" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Play</h4>
+          <ul>
+            <li><a href="wpt-global.html">WPT Global — Code TOMMY</a></li>
+            <li><a href="coaching.html">Book a session</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span data-year>2026</span> Texas Tommy Poker. All rights reserved.</span>
+        <span class="footer__legal">For entertainment &amp; educational purposes. No gambling or transactions take place on this site. 18+/21+ where applicable. Please play responsibly.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

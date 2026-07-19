@@ -1,0 +1,7 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Texas Tommy monogram">
+  <rect x="3" y="3" width="74" height="74" rx="16" fill="#101014" stroke="#2a2a33" stroke-width="2"/>
+  <circle cx="40" cy="40" r="30" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-dasharray="3 5" opacity="0.55"/>
+  <!-- Spade -->
+  <path d="M40 20c-6 8-15 12-15 20a8 8 0 0 0 13 6c-1 4-2 6-5 8h14c-3-2-4-4-5-8a8 8 0 0 0 13-6c0-8-9-12-15-20z" fill="#e11d2a"/>
+  <text x="40" y="70" text-anchor="middle" font-family="Anton, Arial Narrow, sans-serif" font-size="13" letter-spacing="1" fill="#f5f4f2">TT</text>
+</svg>
