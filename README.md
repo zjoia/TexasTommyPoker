@@ -32,6 +32,9 @@ Pulled from Tommy's brand profile:
 - **Journey:** Hong Kong → Toronto + US circuit (Seattle, Portland, Florida, Texas, Las Vegas, US Poker Cruise)
 - **Games:** high-stakes cash ($2/$5+) and MTTs · English + a dedicated Cantonese channel
 - **Coaching method:** the "Repeatable Thought Process" framework
+- **Peers / network:** plays competitive line-ups like Champions Club Texas alongside Outlaw, Ham, Thai, The Commish (noted on the Story page)
+- **Community:** a premium forum (hand histories, node reviews, study habits) is teased as "coming soon" on Home + Coaching
+- **Content formats:** long-form vlogs, hand analysis, bankroll challenges, and Shorts/reels
 - **WPT Global bonus code:** `TOMMY` (confirmed by the official banner asset)
 - **Contact:** texastommypoker@gmail.com
 - **Socials:** [YouTube @texas_tommy](https://youtube.com/@texas_tommy) · [Instagram @texas_tommyy](https://www.instagram.com/texas_tommyy)
@@ -52,13 +55,25 @@ Search the HTML for **`EDIT ME`** — 5 spots remain:
    featured `<iframe>` (commented out, ready to go), and point each series card at
    its real playlist URL.
 4. **Hero stats** (`index.html`) — tweak to Tommy's preferred figures.
-5. **Photos** — the hero/section images currently reuse Tommy's "What is their
-   range" thumbnail (`assets/img/tommy-range.png`). Drop in real action/travel
-   photos as you get them; a couple of spots have `Add a photo here` placeholders.
+5. **Photos** — section images now use the supplied brand photos (table shots,
+   cruise/travel, Toronto community, the 30-Day Bankroll Challenge graphic, and
+   table portraits). These were cropped from the supplied mood board so they're
+   fairly small — swap in **higher-resolution originals** when available,
+   especially for the large hero (which still uses `tommy-range.png`).
 
-### WPT Global assets
-The supplied banner (`assets/img/wpt-banner-250x400.jpg`) is used on the WPT
-Global page. Add more WPT creatives to `assets/img/` and reference them as needed.
+### Image assets in `assets/img/`
+- `tommy-range.png` — the "What is their range" thumbnail (home hero)
+- `tommy-table.jpg` — moody WPT table shot (intro / coaching / WPT pages)
+- `tommy-cruise.jpg` — cruise lifestyle (story intro, Travel series)
+- `community-toronto.jpg` — Toronto meet-up (Community sections)
+- `bankroll-challenge.jpg` — 30-Day Bankroll Challenge graphic (Challenges series)
+- `tommy-range-2.jpg` — hand-analysis shot (content featured)
+- `tommy-portrait-1..4.jpg` — clean table portraits (cards / teasers)
+- `wpt-banner-250x400.jpg` — official WPT Global creative (WPT page)
+
+The AI-garbled-text tiles from the mood board (e.g. "HAND ANJALYSIS", the
+caricatures) were intentionally **not** used — swap in clean finals if you want
+those concepts on the site.
 
 ### Colors / branding
 All design tokens live at the top of `assets/css/styles.css` under `:root`.
