@@ -51,9 +51,10 @@ Search the HTML for **`EDIT ME`** — 5 spots remain:
    `https://www.wptglobal.com`. Swap in Tommy's real referral / affiliate URL.
 2. **Welcome offer + freeroll details** (`wpt-global.html`) — drop in the exact
    current welcome offer and any freeroll schedule/passwords.
-3. **YouTube embeds & playlists** (`content.html`) — paste a video ID into the
-   featured `<iframe>` (commented out, ready to go), and point each series card at
-   its real playlist URL.
+3. ~~YouTube embeds & playlists~~ ✅ **Done.** `content.html` is generated from
+   the real channel: a live embed of the latest episode, all episodes with real
+   YouTube thumbnails/durations/views, and every Short. Re-run
+   `scratchpad/gen_content.py` (or ask me) to refresh when new videos drop.
 4. **Hero stats** (`index.html`) — tweak to Tommy's preferred figures.
 5. **Photos** — section images now use the supplied brand photos (table shots,
    cruise/travel, Toronto community, the 30-Day Bankroll Challenge graphic, and
